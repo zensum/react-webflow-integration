@@ -7,8 +7,8 @@ class App extends Component {
   render() {
     return (
       <>
-        <div id="react-target" style={{ background: "red" }}>
-          Test
+        <div id="react-target" style={{ background: "blue" }}>
+         CHANGED
 				<test/>
         </div>
       </>
