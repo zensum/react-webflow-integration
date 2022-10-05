@@ -9,8 +9,8 @@ class App extends Component {
       <>
         <div id="react-target" style={{ background: "red" }}>
           Test
-        </div>
 				<test/>
+        </div>
       </>
     );
   }
