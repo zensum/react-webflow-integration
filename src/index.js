@@ -1,22 +1,22 @@
 import React, { Component } from "react";
-import test from "./test";
+import Test from "./test";
 
 import ReactDOM from "react-dom";
 
 class App extends Component {
-  render() {
-    return (
-      <>
-        <div id="react-target" style={{ background: "blue" }}>
-         CHANGED
-				<test/>
-        </div>
-      </>
-    );
-  }
+	render() {
+		return (
+			<div id="react-target">
+				<div style={{ background: "yellow" }}>
+					CHANGED AGAIN LOL
+					<Test />
+				</div>
+			</div>
+		);
+	}
 }
 
 ReactDOM.render(
-  React.createElement(App, {}, null),
-  document.getElementById("react-target"),
+	React.createElement(App, {}, null),
+	document.getElementById("react-target"),
 );

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const test = () => {
+const Test = () => {
   return (
     <div style={{background: 'green'}}>
       I am testing the hell out of this. 
@@ -8,4 +8,4 @@ const test = () => {
   )
 }
 
-export default test;
+export default Test;
