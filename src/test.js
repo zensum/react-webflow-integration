@@ -1,14 +1,11 @@
-import React, { Component } from "react";
+import React from 'react';
 
-import ReactDOM from "react-dom";
-
-class App extends Component {
-  render() {
-    return <div style={{ background: "green" }}>Second test</div>;
-  }
+const test = () => {
+  return (
+    <div style={{background: 'green'}}>
+      I am testing the hell out of this. 
+    </div>
+  )
 }
 
-ReactDOM.render(
-  React.createElement(App, {}, null),
-  document.getElementById("react-target-2")
-);
+export default test;
