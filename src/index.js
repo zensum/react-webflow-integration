@@ -4,11 +4,7 @@ import ReactDOM from "react-dom";
 
 class App extends Component {
   render() {
-    return (
-      <div id="react-target" style={{ background: "red" }}>
-        Test
-      </div>
-    );
+    return <div style={{ background: "red" }}>Test</div>;
   }
 }
 
